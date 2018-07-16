@@ -1,6 +1,6 @@
 import dva from 'dva';
 import './index.css';
-
+// import createHistory from 'history/createBrowserHistory';
 // 1. Initialize
 const app = dva();
 
