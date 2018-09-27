@@ -18,3 +18,7 @@ react的生命周期：
     componentDidUpdate()组件初始化时不调用，组件更新完成后调用，此时可以获取dom节点。
     componentWillUnmount()组件将要卸载时调用，一些事件监听和定时器需要在此时清除。
 
+3 16.3更新：
+去除componentWillMount
+    componentWillReceiveProps
+   componentWillUpdate
