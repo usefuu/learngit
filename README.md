@@ -4,7 +4,7 @@
 #learngit
 #学习git 同时把react和ant的自学项目上传，作为react的自学库
 react的生命周期：
-  1.初始化
+  1.初始化(父组件渲染时，生命周期都会被调用)
     getDefaultProps()设置默认的props，也可以用dufaultProps设置组件的默认属性.
     getInitialState()直接在constructor中定义this.state。此时可以访问this.props
     componentWillMount()组件初始化时只调用，以后组件更新不调用，整个生命周期只调用一次
