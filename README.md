@@ -22,3 +22,5 @@ react的生命周期：
 去除componentWillMount
     componentWillReceiveProps
    componentWillUpdate
+
+
